@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.nitro.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "CameraMixin",
+    "ClientPlayNetworkHandlerMixin",
+    "EntityMixin",
+    "HeldItemRendererMixin",
+    "LivingEntityMixin",
+    "SimpleOptionAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
